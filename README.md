@@ -64,8 +64,13 @@ python app.py
 ## 📂 Repository Structure
 
 imdb-sentiment-classifier/
+
     text_classification.ipynb       training notebook
+
     app.py                          Gradio demo
+
     requirements.txt                dependencies
+
     README.md                       this file
+    
     .gitignore                      ignores cache/checkpoints
