@@ -13,7 +13,9 @@ import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
 # model directory
-model_dir = "./imdb_model"
+model_dir = "NkTanyileke/imdb-sentiment-model"
+# uncomment if using personal model trained from notebook
+# model_dir = "./imdb-model"
 
 # load model and tokenizer
 tokenizer = AutoTokenizer.from_pretrained(model_dir)
