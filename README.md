@@ -3,7 +3,7 @@
 This project fine-tunes **DistilBERT** on the [IMDb movie review dataset](https://ai.stanford.edu/~amaas/data/sentiment/) to classify reviews as **Positive** or **Negative**.  
 The final model is deployed as an interactive **Gradio app** on Hugging Face Spaces.  
 
-## 📊 Project Overview
+## Project Overview
 - Task: Binary sentiment classification (positive vs. negative reviews)
 - Dataset: IMDb (50,000 movie reviews)
 - Model: [DistilBERT](https://huggingface.co/distilbert-base-uncased) fine-tuned with Hugging Face `Trainer`
@@ -11,13 +11,13 @@ The final model is deployed as an interactive **Gradio app** on Hugging Face Spa
 - Deployment: [Live Gradio Demo on Hugging Face Spaces](https://huggingface.co/spaces/NkTanyileke/imdb-sentiment-app)
 
 
-## 📦 Features
+## Features
 - Fine-tuned DistilBERT for sentiment analysis
 - Interactive Gradio demo for testing movie reviews
 - Shows predicted sentiment with confidence score
 - Easy deployment to Hugging Face Spaces
 
-## 🛠 Installation
+## Installation
 
 1. Clone the repository:
 ```bash
@@ -36,7 +36,7 @@ conda activate torch-env
 pip install -r requirements.txt
 ```
 
-## 🚀 Usage
+## Usage
 
 1. You can fine-tune DistilBERT yourself using the training notebook in text_classification.ipynb
 
@@ -46,7 +46,7 @@ python app.py
 ```
 3. Enter any movie review in the text box to get prediction.
 
-## 📊 Example Predictions
+## Example Predictions
 
 | Review                           | Prediction       |
 | -------------------------------- | ---------------- |
@@ -54,14 +54,14 @@ python app.py
 | "Terrible movie, waste of time." | Negative (95.3%) |
 
 
-## 🔗 Model & Demo Links
+## Model & Demo Links
 
-📦 Fine-tuned Model: [Hugging Face Hub](https://huggingface.co/NkTanyileke/imdb-sentiment-model)
+ Fine-tuned Model: [Hugging Face Hub](https://huggingface.co/NkTanyileke/imdb-sentiment-model)
 
-🎨 Live Demo: [Gradio App](https://huggingface.co/spaces/NkTanyileke/imdb-sentiment-app)
+ Live Demo: [Gradio App](https://huggingface.co/spaces/NkTanyileke/imdb-sentiment-app)
 
 
-## 📂 Repository Structure
+## Repository Structure
 
 imdb-sentiment-classifier/
 
@@ -72,5 +72,5 @@ imdb-sentiment-classifier/
     requirements.txt                dependencies
 
     README.md                       this file
-    
+
     .gitignore                      ignores cache/checkpoints
